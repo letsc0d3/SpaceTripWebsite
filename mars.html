@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceTrip</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/mars.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav id="navBar">
+        <img src="images/logo2.png" class="logo" />
+        <ul class="nav-items">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="reiseziele.html" class="selected">Reiseziele</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="ueber.html">Über</a></li>
+        </ul>
+        <a href="#" class="buchen">Jetzt Buchen</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+      </nav>
+      <div class="wrapper">
+        <h1>
+          Dein Traum auf dem Mars <br />
+          Unsere Angebote!
+        </h1>
+        <a href="#section-card" class="scroll"></a>
+      </div>
+    </div>
+
+    <!-- card section -->
+    <section id="section-card">
+      <div class="row-cards">
+        <div class="card-service">
+          <div class="container-img">
+            <img src="images/card2.png" />
+            <h2>Bronze</h2>
+            <p>In <b>8</b> Stunden zum Mars (425€)</p>
+          </div>
+        </div>
+
+        <div class="card-service">
+          <div class="container-img">
+            <img src="images/card3.png" />
+            <h2>Silber</h2>
+            <p>In <b>4</b> Stunden zum Mars (730€)</p>
+          </div>
+        </div>
+
+        <div class="card-service">
+          <div class="container-img">
+            <img src="images/card.png" />
+            <h2>Gold</h2>
+            <p>In <b>2.5</b> Stunden zum Mars (956€)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrapper">
+        <h2 class="subtitle">Aktivitäten</h2>
+        <div class="aktivitäten">
+          <div>
+            <img src="images/aktivitaet1.png" />
+            <span>
+              <h3>Mars-Hiking</h3>
+            </span>
+          </div>
+          <div>
+            <img src="images/beachbar.png" />
+            <span>
+              <h3>Mars-Wellness</h3>
+            </span>
+          </div>
+          <div>
+            <img src="images/biking.png" />
+            <span>
+              <h3>Mountain biking</h3>
+            </span>
+          </div>
+          <!-- <div>
+          <img src="images/aktivität1.png" />
+          <span>
+            <h3>Rodeo</h3>
+          </span>
+        </div>
+        <div>
+          <img src="images/aktivität1.png" />
+          <span>
+            <h3>Rodeo</h3>
+          </span>
+        </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- listing -->
+    <section>
+      <div class="listing">
+        <div class="item">
+          <img src="images/listing1.jpg" alt="Image 1" />
+          <p>
+            Unser All-Inclusive-Angebot deckt alles ab! Essen, Getränke,
+            Unterhaltung und sogar ein Sitzplatz mit Blick auf die majestätische
+            Marsoberfläche. Unsere talentierten Mars-Köche verwandeln lokale
+            Marszutaten in kulinarische Meisterwerke - du zahlst einen Preis und
+            genießt ein Universum voller Geschmack und Spaß! 💫🛰️
+          </p>
+        </div>
+        <div class="item">
+          <img src="images/listing5.jpg" alt="Image 2" />
+          <p>
+            🚀 Unsere Mars-Reise bietet nicht nur faszinierende Ausflüge in die
+            Weiten des roten Planeten, sondern auch eine erstklassige Anbindung
+            an die pulsierende Innstadt - ein wahres Paradies für Entdecker und
+            Weltraum-Enthusiasten gleichermaßen! Erlebe ein Schmelztiegel aus
+            Einkaufsmöglichkeiten, kulinarischen Höhepunkten und kulturellen
+            Schätzen - alles nur einen kurzen Mars-Shuttle entfernt!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <hr />
+      <p>
+        Copyright <i class="fa-solid fa-copyright"></i> 2023, Adama, Zeynep,
+        Emre
+      </p>
+    </footer>
+
+    <script>
+      var navBar = document.getElementById('navBar');
+      function togglebtn() {
+        navBar.classList.toggle('hide');
+      }
+    </script>
+  </body>
+</html>

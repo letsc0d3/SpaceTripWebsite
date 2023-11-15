@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <nav id="navBar">
+        <img src="images/logo2.png" class="logo" />
+        <ul class="nav-items">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="reiseziele.html" class="selected">Reiseziele</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+          <li><a href="ueber.html">Über</a></li>
+        </ul>
+        <!-- <a href="#" class="buchen">Jetzt Buchen</a> -->
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+      </nav>
+    </div>
+    <section class="kontakt">
+      <div class="inhalt">
+        <h2>Kontaktiere uns</h2>
+      </div>
+      <div class="wrapper">
+        <div class="kontakt-info">
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-map-pin"></i></div>
+            <div class="text">
+              <h3>Adresse</h3>
+              <p>
+                Bauernweg 17 <br />
+                Hamburg 25337
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+            <div class="text">
+              <h3>Telefon</h3>
+              <p>040/245367448</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>info@spacetrip.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="kontakt-form">
+          <form>
+            <h2>Dein Anliegen</h2>
+            <div class="inputbox">
+              <input type="text" name="" required="requires" />
+              <span>Vor- und Nachname</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" required="requires" />
+              <span>Email</span>
+            </div>
+            <div class="inputbox">
+              <textarea required="required"></textarea>
+              <span>Deine Nachricht...</span>
+            </div>
+            <div class="inputbox">
+              <input type="submit" name="" value="senden" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var navBar = document.getElementById('navBar');
+      function togglebtn() {
+        navBar.classList.toggle('hide');
+      }
+    </script>
+  </body>
+</html>
