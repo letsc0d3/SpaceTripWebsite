@@ -1,5 +1,4 @@
 html {
-  /*cursor: url(images/heart.png), auto;*/
   scroll-behavior: smooth;
 }
 
@@ -16,22 +15,11 @@ body {
   position: fixed;
   height: 50px;
   width: 100%;
-  /*background-color: rgb(29, 48, 72);*/
-
   background-color: rgba(222, 97, 97);
   border-radius: 0 0 10px 10px;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /*justify-content: ;*/
-  /*padding: 10px 0;*/
   z-index: 1;
-  /*.navItem {*/
-  /*    background-color: rgb(255, 255, 255, 0);*/
-  /*    border: 0;*/
-  /*    color: white;*/
-  /*    font-size: 18px;*/
-  /*    width: 30px;*/
-  /*}*/
 }
 
 #scroll {
@@ -41,14 +29,9 @@ body {
 ul {
   list-style-type: none;
   overflow: hidden;
-
-  /*display: flex;*/
-  /*flex-flow: row;*/
-  /*margin-right: 60px;*/
   position: absolute;
   top: 0;
   left: 30px;
-
   display: flex;
   flex-flow: row;
 }
@@ -58,10 +41,7 @@ li a,
 .welcome-big a {
   transition-duration: 0.1s;
   height: fit-content;
-  /*display: block;*/
   color: white;
-  /*text-align: center;*/
-  /*padding: 14px 16px;*/
   text-decoration: none;
 }
 
@@ -75,8 +55,7 @@ li {
 }
 
 .heroImage {
-  background: /*linear-gradient(to bottom, rgba(255, 255, 255, 0) 93%, rgba(255, 255, 255, 1)), */ url(../images/surrealWorld.jpg)
-    no-repeat center center/cover;
+  background: url(../images/surrealWorld.jpg) no-repeat center center/cover;
   height: 100vh;
   z-index: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -122,19 +101,15 @@ p {
 }
 
 .welcomeButtonTop {
-  /*margin-top: 200px;*/
 }
 
 .welcome,
 .welcomeButton {
   display: flex;
   flex-flow: wrap column;
-  /*justify-content: flex-start;*/
   align-items: center;
   padding: 10em 20px;
   font-size: 20px;
-
-  /*z-index: 0;*/
 }
 
 .bgText,
@@ -159,28 +134,13 @@ p {
 }
 
 .beschreibung {
-  /*position: relative;*/
   display: flex;
   flex-flow: column;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  /*background-color: rgb(245, 245, 245, .5);*/
   margin: 15px;
-  /*width: 80%;*/
-  /*display: flex;*/
-  /*flex-flow: row wrap;*/
-  /*justify-content: center;*/
   color: black;
-}
-
-.aktionen {
-  /*background-color: rgb(245, 245, 245, .5);*/
-  /*display: flex;*/
-  /*flex-flow: row;*/
-  /*justify-content: center;*/
-  /*color: black;*/
 }
 
 .aktion {
@@ -190,9 +150,6 @@ p {
   border-radius: 10px;
   padding: 10px;
   margin: 5px 0;
-  /*position: relative;*/
-  /*border-bottom: solid black 1px;*/
-  /*box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .full {
@@ -203,12 +160,9 @@ p {
   transition-duration: 0.1s;
   margin-top: 10px;
   width: 100%;
-  /*margin: 10px 0 0;*/
   border-radius: 0 0 10px 10px;
   background-color: #254b5b;
-  /*border-radius: 10px;*/
   border: none;
-  /*align-self: flex-end;*/
   color: white;
   padding: 15px 20px;
   text-align: center;
@@ -254,7 +208,6 @@ p {
     flex-flow: column;
     width: 30%;
     justify-content: stretch;
-    /*height: 100%;*/
   }
 
   .button {
@@ -265,8 +218,6 @@ p {
     display: flex;
     flex-flow: wrap row;
     justify-content: space-between;
-    /*column-gap: 10px;*/
-    /*align-content: space-evenly;*/
   }
 
   .welcome {
@@ -275,8 +226,6 @@ p {
   .welcome-big {
     display: flex;
     flex-flow: wrap column;
-    /*height: fit-content;*/
-    /*justify-content: flex-start;*/
     align-items: center;
     padding: 10em 20px;
     font-size: 20px;
